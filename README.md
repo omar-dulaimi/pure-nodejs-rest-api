@@ -1,6 +1,6 @@
 # Pure NodeJS REST API
 
-A very minimal NodeJS REST API for a note taking app. No frameworks were used; just plain NodeJS. I added mongoose just to make this project a little bit interesting since you're going to need persist users' data in most cases.
+A very minimal NodeJS REST API for a note taking app. No frameworks were used; just plain NodeJS. I added mongoose just to make this project a little bit interesting since you're going to need to persist users' data in most cases.
 
 ## API Documentation
 
