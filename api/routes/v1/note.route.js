@@ -8,12 +8,10 @@ module.exports = async (req, res, method) => {
 
         case 'POST':
             controller.post(req, res);
-
             break;
 
         case 'PUT':
             controller.put(req, res);
-
             break;
 
         case 'DELETE':
