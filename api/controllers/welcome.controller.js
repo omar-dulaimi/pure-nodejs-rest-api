@@ -1,7 +1,8 @@
 exports.get = (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write(
-        'Welcome to our pure NodeJS Api. Please use /note to do your development.',
+        `<h1><strong><span style='color: #008080;'>Welcome to our pure NodeJS API</strong></span></h1>
+        <span><span style='color: #008000;'>Please use <span style='text-decoration: underline;'><em><strong>/note</strong></em></span> to do your development.</span></span>`,
     );
     res.end();
 };
